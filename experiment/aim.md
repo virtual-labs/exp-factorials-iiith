@@ -4,21 +4,28 @@ Here we present two problems based on factorials.
 
 **Problem 1:**
 
+
 Given a positive integer, find the number of digits in the factorial of the number.
       
+
 **Input Specification**
 
 Input will contain a single positive integer N(< 106) input from keyboard.
+
 
 **Output Specification**
 
 Output must be the number of digits in the factorial of the given number.
 
+
 **Sample Input and Output**
 
 Input: 5
+
 Output:2
+
 Input: 52
+
 Output: 68
 
 
@@ -27,19 +34,25 @@ Output: 68
 
 Find the number of zeroes at the end of factorial of a number.
 
+
 **Input Specification**
 
 Input will contain a single positive integer N input from keyboard, lesser than 10^9.
+
 
 **Output Specification**
 
 Output must be the number of zeroes at the end of the factorial of the given number.
 
+
 Sample Input and Output
 
 Input: 5
+
 Output:1
+
 Input: 25
+
 Output: 6
 
 
