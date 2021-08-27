@@ -1,1 +1,1 @@
-To learn to solve problems related to Factorials using Computer Programming. 
+- To learn to solve problems related to Factorials using Computer Programming. 
