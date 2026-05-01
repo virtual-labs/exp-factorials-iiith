@@ -19,7 +19,7 @@ Factorials are everywhere! They are used in:
 - **Computer Science:** Algorithm analysis and recursion.
 
 <div align="center">
-<img src="./images/experiment-image.png" alt="Recursive computation of factorial" width="400"/>
+<img src="images/experiment-image.png" alt="Recursive computation of factorial" width="400"/>
 <br><small>Visualization: Recursive computation of factorial (factorial(4) breakdown)</small>
 </div>
 
