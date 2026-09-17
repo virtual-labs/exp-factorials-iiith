@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the value of 4! (4 factorial)?",
+      "answers": {
+        "a": "10",
+        "b": "24",
+        "c": "16",
+        "d": "12"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. 4! = 4 × 3 × 2 × 1 = 24.",
+        "b": "Correct. 4! = 4 × 3 × 2 × 1 = 24.",
+        "c": "Incorrect. 16 is not the value of 4!.",
+        "d": "Incorrect. 12 is not the value of 4!"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which of the following best describes n! (n factorial)?",
+      "answers": {
+        "a": "The sum of all numbers from 1 to n",
+        "b": "The product of all numbers from 1 to n",
+        "c": "The product of all even numbers up to n",
+        "d": "The sum of all even numbers up to n"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Factorial is a product, not a sum.",
+        "b": "Correct. n! is the product of all positive integers from 1 to n.",
+        "c": "Incorrect. Factorial includes all numbers, not just even ones.",
+        "d": "Incorrect. Factorial is not a sum."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the value of 0! (zero factorial)?",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "Undefined",
+        "d": "Depends on n"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. By definition, 0! = 1.",
+        "b": "Correct. 0! is defined as 1.",
+        "c": "Incorrect. 0! is defined and equals 1.",
+        "d": "Incorrect. 0! is always 1."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following grows fastest as n increases?",
+      "answers": {
+        "a": "n",
+        "b": "n^2",
+        "c": "n!",
+        "d": "2n"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. n! grows much faster than n.",
+        "b": "Incorrect. n! grows faster than n^2.",
+        "c": "Correct. Factorial grows faster than any polynomial or exponential in n.",
+        "d": "Incorrect. 2n is linear, n! is much faster."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. What is the main reason why direct computation of large factorials is difficult on a computer?",
+      "answers": {
+        "a": "Factorials can be negative",
+        "b": "Factorials grow very quickly and exceed standard data types",
+        "c": "Factorials are always prime",
+        "d": "Computers cannot multiply"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Factorials are always non-negative.",
+        "b": "Correct. Factorials grow rapidly and quickly exceed the storage capacity of standard data types.",
+        "c": "Incorrect. Factorials are not always prime.",
+        "d": "Incorrect. Computers can multiply, but factorials get too large."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which formula can be used to find the number of digits in n! without computing n! directly?",
+      "answers": {
+        "a": "n",
+        "b": "n^2",
+        "c": "floor(log10(n!)) + 1",
+        "d": "n! / 10"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. n is not the number of digits in n!.",
+        "b": "Incorrect. n^2 is not the number of digits in n!.",
+        "c": "Correct. The number of digits in n! is floor(log10(n!)) + 1.",
+        "d": "Incorrect. n! / 10 does not give the number of digits."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. How do you count the number of trailing zeroes in n!?",
+      "answers": {
+        "a": "Count the number of times n is divisible by 2",
+        "b": "Count the number of times n is divisible by 5",
+        "c": "Count the number of pairs of 2 and 5 in the factorization of n!",
+        "d": "Count the number of digits in n!"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. There are more 2s than 5s in n!.",
+        "b": "Incorrect. You need pairs of 2 and 5 to make a zero.",
+        "c": "Correct. Each pair of 2 and 5 in n! produces a trailing zero.",
+        "d": "Incorrect. Number of digits is unrelated to trailing zeroes."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Which of the following is the value of 5! ?",
+      "answers": {
+        "a": "120",
+        "b": "60",
+        "c": "24",
+        "d": "720"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. 5! = 5 × 4 × 3 × 2 × 1 = 120.",
+        "b": "Incorrect. 60 is not the value of 5!.",
+        "c": "Incorrect. 24 is the value of 4!.",
+        "d": "Incorrect. 720 is the value of 6!."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Which of the following statements about factorials is false?",
+      "answers": {
+        "a": "0! = 1",
+        "b": "n! is always even for n > 2",
+        "c": "n! is the product of all positive integers up to n",
+        "d": "n! is always a prime number"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Correct. 0! is defined as 1.",
+        "b": "Correct. For n > 2, n! includes 2 as a factor, so it's even.",
+        "c": "Correct. This is the definition of factorial.",
+        "d": "Incorrect. n! is rarely prime."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "10. In how many ways can 3 books be arranged on a shelf?",
+      "answers": {
+        "a": "3",
+        "b": "6",
+        "c": "9",
+        "d": "12"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. 3 books can be arranged in 3! = 6 ways.",
+        "b": "Correct. 3! = 3 × 2 × 1 = 6.",
+        "c": "Incorrect. 9 is not the number of arrangements.",
+        "d": "Incorrect. 12 is not the number of arrangements."
+      },
+      "difficulty": "beginner"
+    }
+  ]
+}

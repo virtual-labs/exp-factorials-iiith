@@ -1,0 +1,1 @@
+To explore and understand the mathematical properties, computational challenges, and applications of factorials through problem solving and programming, focusing on efficient algorithms and real-world contexts.

@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the value of 6! (6 factorial)?",
+      "answers": {
+        "a": "720",
+        "b": "120",
+        "c": "5040",
+        "d": "36"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720.",
+        "b": "Incorrect. 120 is the value of 5!.",
+        "c": "Incorrect. 5040 is the value of 7!.",
+        "d": "Incorrect. 36 is not a factorial value here."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which of the following is NOT a property of factorials?",
+      "answers": {
+        "a": "0! = 1",
+        "b": "n! is always positive for n ≥ 0",
+        "c": "n! is the sum of all numbers from 1 to n",
+        "d": "n! is used in permutations and combinations"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Correct. 0! is defined as 1.",
+        "b": "Correct. Factorials are always positive.",
+        "c": "Incorrect. Factorial is a product, not a sum.",
+        "d": "Correct. Factorials are used in combinatorics."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the number of trailing zeroes in 100!?",
+      "answers": {
+        "a": "24",
+        "b": "20",
+        "c": "10",
+        "d": "5"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. 100! has 24 trailing zeroes (sum of floor(100/5) + floor(100/25) + ...).",
+        "b": "Incorrect. 20 is not the correct count.",
+        "c": "Incorrect. 10 is too few.",
+        "d": "Incorrect. 5 is too few."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. Which formula gives the number of digits in n! ?",
+      "answers": {
+        "a": "n",
+        "b": "n^2",
+        "c": "floor(log10(n!)) + 1",
+        "d": "n! / 10"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. n is not the number of digits in n!.",
+        "b": "Incorrect. n^2 is not the number of digits in n!.",
+        "c": "Correct. The number of digits in n! is floor(log10(n!)) + 1.",
+        "d": "Incorrect. n! / 10 does not give the number of digits."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Which of the following is the value of 8! ?",
+      "answers": {
+        "a": "40320",
+        "b": "5040",
+        "c": "720",
+        "d": "362880"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. 8! = 40320.",
+        "b": "Incorrect. 5040 is the value of 7!.",
+        "c": "Incorrect. 720 is the value of 6!.",
+        "d": "Incorrect. 362880 is the value of 9!."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. What is the main reason for using logarithms to compute the number of digits in n! ?",
+      "answers": {
+        "a": "Logarithms are faster to compute than multiplication for large n",
+        "b": "Logarithms always give exact values",
+        "c": "Multiplication is not allowed in programming",
+        "d": "Logarithms are only used for small n"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Summing logarithms is much faster and avoids overflow for large n.",
+        "b": "Incorrect. Logarithms give approximate values, but are useful for counting digits.",
+        "c": "Incorrect. Multiplication is allowed, but not practical for large n.",
+        "d": "Incorrect. Logarithms are especially useful for large n."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. In how many ways can 5 students be arranged in a line?",
+      "answers": {
+        "a": "120",
+        "b": "60",
+        "c": "24",
+        "d": "720"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. 5! = 120 ways.",
+        "b": "Incorrect. 60 is not the value of 5!.",
+        "c": "Incorrect. 24 is the value of 4!.",
+        "d": "Incorrect. 720 is the value of 6!."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Which of the following statements about trailing zeroes in n! is true?",
+      "answers": {
+        "a": "They are caused by pairs of 2 and 5 in the factorization of n!",
+        "b": "They are caused by pairs of 3 and 7",
+        "c": "They are caused by the number of digits in n!",
+        "d": "They are caused by the value of n"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Each pair of 2 and 5 in n! produces a trailing zero.",
+        "b": "Incorrect. 3 and 7 do not produce trailing zeroes.",
+        "c": "Incorrect. Number of digits is unrelated to trailing zeroes.",
+        "d": "Incorrect. The value of n alone does not determine trailing zeroes."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Which of the following is NOT a use of factorials?",
+      "answers": {
+        "a": "Counting arrangements (permutations)",
+        "b": "Calculating binomial coefficients",
+        "c": "Finding the sum of a geometric series",
+        "d": "Taylor series expansions"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Correct. Factorials are used in permutations.",
+        "b": "Correct. Factorials are used in binomial coefficients.",
+        "c": "Incorrect. Geometric series do not use factorials.",
+        "d": "Correct. Factorials appear in Taylor series."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "10. What is the value of 0! ?",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "Undefined",
+        "d": "Depends on n"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. 0! is defined as 1.",
+        "b": "Correct. 0! is always 1 by definition.",
+        "c": "Incorrect. 0! is defined and equals 1.",
+        "d": "Incorrect. 0! is always 1."
+      },
+      "difficulty": "beginner"
+    }
+  ]
+}
