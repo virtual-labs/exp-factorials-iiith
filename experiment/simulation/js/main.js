@@ -78,15 +78,15 @@ const problems = [
     ],
     blanks: [
       { line: 7, answers: ["10"], placeholder: "modulus base" },
-      { line: 8, answers: ["10"], placeholder: "divisor" }
+      { line: 8, answers: ["10"], placeholder: "divisor" },
     ],
     hints: [
       "What value do you use to get the last digit?",
       "What value do you use to remove the last digit?",
-      "For n=4, output is 4 2 1. For n=5, output is 0 2 1 1.",
+      "For n=4, output is 4 2. For n=5, output is 0 2 1.",
     ],
     compilerOutput: "Compiled successfully.",
-    runtimeOutput: "For n=4, output is 4 2 1. For n=5, output is 0 2 1 1.",
+    runtimeOutput: "For n=4, output is 4 2. For n=5, output is 0 2 1.",
   },
 ];
 
